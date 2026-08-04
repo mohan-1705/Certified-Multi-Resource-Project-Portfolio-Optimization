@@ -6,3 +6,6 @@
 .env
 certificate_bad.json
 portfolio_bad.json
+
+portfolio.json
+certificate.json
