@@ -11,6 +11,30 @@ This task requires solving a deterministic project portfolio optimization instan
 - `data/instance.json`: deterministic instance data
 - `tests/test_verify.py`: unit tests for verifier and certificate validation
 
+## Certificate Format
+
+The certificate must be a JSON object containing:
+
+- `root`: the root node id of the branch-and-bound tree
+- `nodes`: a non-empty list of nodes
+- `best_selection`: the selected project ids for the optimal portfolio
+- `best_objective`: the integer objective value of the optimal portfolio
+- `root_upper_bound`: a numeric LP relaxation upper bound at the root (optional)
+
+Each node must include:
+
+- `node_id`, `parent_id`, `fixed_assignments`, `status`
+- `branch_variable` when `status == "branch"`
+- `upper_bound` and `proof`
+
+Proof types:
+
+- `lp_relaxation` for branch and pruned nodes
+- `infeasible` for pruned infeasible nodes
+- `integer_solution` for optimal leaf nodes
+
+The verifier checks tree structure, fixed assignment inheritance, and objective consistency.
+
 ## Running the Task
 
 Execute the task by running:
