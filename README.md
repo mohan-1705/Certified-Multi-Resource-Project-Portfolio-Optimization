@@ -40,11 +40,10 @@ A project can only be selected when all of its prerequisites are also selected.
 
 For example, if project `P20` requires `P05`, selecting `P20` requires both:
 
-```text
 P05
 P20
 
-Dependencies may form long chains and may also be shared by several projects.
+## Dependencies may form long chains and may also be shared by several projects.
 
 This means that the actual cost and resource requirements of selecting a project can depend on several other projects that must be selected with it.
 
