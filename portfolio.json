@@ -1,0 +1,21 @@
+{
+  "selected_projects": [
+    "P1",
+    "P11",
+    "P15",
+    "P18",
+    "P19",
+    "P21",
+    "P23",
+    "P4",
+    "P5"
+  ],
+  "objective": 933,
+  "resources": {
+    "cost": 1799,
+    "engineering": 115,
+    "staffing": 119,
+    "energy": 100,
+    "risk": 86
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "root": 0,
+  "nodes": [
+    {
+      "node_id": 0,
+      "parent_id": null,
+      "fixed_assignments": {
+        "zero": [],
+        "one": []
+      },
+      "branch_variable": null,
+      "status": "optimal",
+      "upper_bound": 986.3690583770106,
+      "proof": {
+        "type": "lp_relaxation",
+        "value": 986.3690583770106
+      }
+    }
+  ],
+  "best_objective": 933,
+  "best_selection": [
+    "P1",
+    "P11",
+    "P15",
+    "P18",
+    "P19",
+    "P21",
+    "P23",
+    "P4",
+    "P5"
+  ],
+  "resources": {
+    "cost": 1799,
+    "engineering": 115,
+    "staffing": 119,
+    "energy": 100,
+    "risk": 86
+  }
+}

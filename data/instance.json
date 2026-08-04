@@ -1,0 +1,391 @@
+{
+  "projects": [
+    {
+      "id": "P1",
+      "reward": 106,
+      "cost": 137,
+      "engineering": 5,
+      "staffing": 13,
+      "energy": 7,
+      "risk": 6,
+      "deps": []
+    },
+    {
+      "id": "P2",
+      "reward": 42,
+      "cost": 132,
+      "engineering": 22,
+      "staffing": 7,
+      "energy": 13,
+      "risk": 9,
+      "deps": [
+        "P1"
+      ]
+    },
+    {
+      "id": "P3",
+      "reward": 29,
+      "cost": 95,
+      "engineering": 7,
+      "staffing": 11,
+      "energy": 7,
+      "risk": 11,
+      "deps": [
+        "P2"
+      ]
+    },
+    {
+      "id": "P4",
+      "reward": 102,
+      "cost": 93,
+      "engineering": 22,
+      "staffing": 11,
+      "energy": 15,
+      "risk": 13,
+      "deps": []
+    },
+    {
+      "id": "P5",
+      "reward": 114,
+      "cost": 294,
+      "engineering": 12,
+      "staffing": 19,
+      "energy": 13,
+      "risk": 7,
+      "deps": [
+        "P4"
+      ]
+    },
+    {
+      "id": "P6",
+      "reward": 25,
+      "cost": 161,
+      "engineering": 18,
+      "staffing": 15,
+      "energy": 8,
+      "risk": 5,
+      "deps": [
+        "P3"
+      ]
+    },
+    {
+      "id": "P7",
+      "reward": 52,
+      "cost": 252,
+      "engineering": 8,
+      "staffing": 7,
+      "energy": 10,
+      "risk": 4,
+      "deps": [
+        "P6"
+      ]
+    },
+    {
+      "id": "P8",
+      "reward": 70,
+      "cost": 256,
+      "engineering": 24,
+      "staffing": 13,
+      "energy": 16,
+      "risk": 3,
+      "deps": []
+    },
+    {
+      "id": "P9",
+      "reward": 118,
+      "cost": 315,
+      "engineering": 22,
+      "staffing": 8,
+      "energy": 18,
+      "risk": 9,
+      "deps": [
+        "P8"
+      ]
+    },
+    {
+      "id": "P10",
+      "reward": 35,
+      "cost": 230,
+      "engineering": 24,
+      "staffing": 16,
+      "energy": 13,
+      "risk": 6,
+      "deps": [
+        "P9"
+      ]
+    },
+    {
+      "id": "P11",
+      "reward": 115,
+      "cost": 115,
+      "engineering": 6,
+      "staffing": 12,
+      "energy": 16,
+      "risk": 7,
+      "deps": []
+    },
+    {
+      "id": "P12",
+      "reward": 35,
+      "cost": 199,
+      "engineering": 8,
+      "staffing": 17,
+      "energy": 8,
+      "risk": 10,
+      "deps": [
+        "P11"
+      ]
+    },
+    {
+      "id": "P13",
+      "reward": 106,
+      "cost": 266,
+      "engineering": 10,
+      "staffing": 16,
+      "energy": 9,
+      "risk": 6,
+      "deps": [
+        "P12"
+      ]
+    },
+    {
+      "id": "P14",
+      "reward": 110,
+      "cost": 216,
+      "engineering": 7,
+      "staffing": 24,
+      "energy": 14,
+      "risk": 5,
+      "deps": [
+        "P13"
+      ]
+    },
+    {
+      "id": "P15",
+      "reward": 93,
+      "cost": 205,
+      "engineering": 10,
+      "staffing": 19,
+      "energy": 10,
+      "risk": 7,
+      "deps": []
+    },
+    {
+      "id": "P16",
+      "reward": 106,
+      "cost": 192,
+      "engineering": 15,
+      "staffing": 6,
+      "energy": 7,
+      "risk": 16,
+      "deps": [
+        "P15"
+      ]
+    },
+    {
+      "id": "P17",
+      "reward": 29,
+      "cost": 241,
+      "engineering": 17,
+      "staffing": 13,
+      "energy": 5,
+      "risk": 6,
+      "deps": [
+        "P16"
+      ]
+    },
+    {
+      "id": "P18",
+      "reward": 97,
+      "cost": 241,
+      "engineering": 11,
+      "staffing": 20,
+      "energy": 10,
+      "risk": 13,
+      "deps": [
+        "P15"
+      ]
+    },
+    {
+      "id": "P19",
+      "reward": 83,
+      "cost": 153,
+      "engineering": 13,
+      "staffing": 9,
+      "energy": 7,
+      "risk": 14,
+      "deps": [
+        "P18"
+      ]
+    },
+    {
+      "id": "P20",
+      "reward": 96,
+      "cost": 214,
+      "engineering": 23,
+      "staffing": 18,
+      "energy": 18,
+      "risk": 12,
+      "deps": [
+        "P10"
+      ]
+    },
+    {
+      "id": "P21",
+      "reward": 76,
+      "cost": 265,
+      "engineering": 12,
+      "staffing": 9,
+      "energy": 12,
+      "risk": 10,
+      "deps": []
+    },
+    {
+      "id": "P22",
+      "reward": 36,
+      "cost": 104,
+      "engineering": 8,
+      "staffing": 9,
+      "energy": 14,
+      "risk": 5,
+      "deps": []
+    },
+    {
+      "id": "P23",
+      "reward": 112,
+      "cost": 296,
+      "engineering": 24,
+      "staffing": 7,
+      "energy": 10,
+      "risk": 9,
+      "deps": []
+    },
+    {
+      "id": "P24",
+      "reward": 101,
+      "cost": 319,
+      "engineering": 21,
+      "staffing": 13,
+      "energy": 12,
+      "risk": 16,
+      "deps": []
+    },
+    {
+      "id": "P25",
+      "reward": 26,
+      "cost": 138,
+      "engineering": 22,
+      "staffing": 13,
+      "energy": 16,
+      "risk": 13,
+      "deps": [
+        "P17"
+      ]
+    }
+  ],
+  "interactions": [
+    {
+      "projects": [
+        "P1",
+        "P3"
+      ],
+      "type": "synergy",
+      "value": 12
+    },
+    {
+      "projects": [
+        "P5",
+        "P6"
+      ],
+      "type": "synergy",
+      "value": 11
+    },
+    {
+      "projects": [
+        "P6",
+        "P7"
+      ],
+      "type": "synergy",
+      "value": 8
+    },
+    {
+      "projects": [
+        "P8",
+        "P14"
+      ],
+      "type": "synergy",
+      "value": 27
+    },
+    {
+      "projects": [
+        "P9",
+        "P10"
+      ],
+      "type": "synergy",
+      "value": 21
+    },
+    {
+      "projects": [
+        "P11",
+        "P15"
+      ],
+      "type": "synergy",
+      "value": 11
+    },
+    {
+      "projects": [
+        "P13",
+        "P16"
+      ],
+      "type": "synergy",
+      "value": 11
+    },
+    {
+      "projects": [
+        "P17",
+        "P18"
+      ],
+      "type": "conflict",
+      "value": 12
+    },
+    {
+      "projects": [
+        "P19",
+        "P21"
+      ],
+      "type": "synergy",
+      "value": 24
+    },
+    {
+      "projects": [
+        "P20",
+        "P22"
+      ],
+      "type": "synergy",
+      "value": 10
+    },
+    {
+      "projects": [
+        "P23",
+        "P24"
+      ],
+      "type": "synergy",
+      "value": 9
+    },
+    {
+      "projects": [
+        "P24",
+        "P25"
+      ],
+      "type": "synergy",
+      "value": 10
+    }
+  ],
+  "budget": {
+    "cost": 2200,
+    "engineering": 125,
+    "staffing": 120,
+    "energy": 105,
+    "risk": 90
+  }
+}
