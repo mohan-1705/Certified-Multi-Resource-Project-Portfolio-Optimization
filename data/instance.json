@@ -2,33 +2,33 @@
   "projects": [
     {
       "id": "P1",
-      "reward": 106,
-      "cost": 137,
-      "engineering": 5,
-      "staffing": 13,
-      "energy": 7,
-      "risk": 6,
+      "reward": 68,
+      "cost": 82,
+      "engineering": 29,
+      "staffing": 14,
+      "energy": 11,
+      "risk": 11,
       "deps": []
     },
     {
       "id": "P2",
-      "reward": 42,
-      "cost": 132,
-      "engineering": 22,
-      "staffing": 7,
-      "energy": 13,
-      "risk": 9,
+      "reward": 75,
+      "cost": 122,
+      "engineering": 27,
+      "staffing": 29,
+      "energy": 21,
+      "risk": 6,
       "deps": [
         "P1"
       ]
     },
     {
       "id": "P3",
-      "reward": 29,
-      "cost": 95,
-      "engineering": 7,
-      "staffing": 11,
-      "energy": 7,
+      "reward": 148,
+      "cost": 86,
+      "engineering": 6,
+      "staffing": 8,
+      "energy": 10,
       "risk": 11,
       "deps": [
         "P2"
@@ -36,78 +36,82 @@
     },
     {
       "id": "P4",
-      "reward": 102,
-      "cost": 93,
-      "engineering": 22,
-      "staffing": 11,
-      "energy": 15,
-      "risk": 13,
-      "deps": []
+      "reward": 169,
+      "cost": 378,
+      "engineering": 6,
+      "staffing": 23,
+      "energy": 10,
+      "risk": 17,
+      "deps": [
+        "P3"
+      ]
     },
     {
       "id": "P5",
-      "reward": 114,
-      "cost": 294,
-      "engineering": 12,
-      "staffing": 19,
-      "energy": 13,
-      "risk": 7,
+      "reward": 96,
+      "cost": 299,
+      "engineering": 24,
+      "staffing": 14,
+      "energy": 4,
+      "risk": 9,
       "deps": [
         "P4"
       ]
     },
     {
       "id": "P6",
-      "reward": 25,
-      "cost": 161,
-      "engineering": 18,
-      "staffing": 15,
-      "energy": 8,
-      "risk": 5,
+      "reward": 148,
+      "cost": 244,
+      "engineering": 14,
+      "staffing": 10,
+      "energy": 10,
+      "risk": 14,
       "deps": [
-        "P3"
+        "P5"
       ]
     },
     {
       "id": "P7",
-      "reward": 52,
-      "cost": 252,
-      "engineering": 8,
-      "staffing": 7,
-      "energy": 10,
-      "risk": 4,
+      "reward": 66,
+      "cost": 117,
+      "engineering": 18,
+      "staffing": 9,
+      "energy": 15,
+      "risk": 15,
       "deps": [
         "P6"
       ]
     },
     {
       "id": "P8",
-      "reward": 70,
-      "cost": 256,
-      "engineering": 24,
-      "staffing": 13,
-      "energy": 16,
-      "risk": 3,
-      "deps": []
+      "reward": 107,
+      "cost": 92,
+      "engineering": 29,
+      "staffing": 20,
+      "energy": 21,
+      "risk": 7,
+      "deps": [
+        "P7"
+      ]
     },
     {
       "id": "P9",
-      "reward": 118,
-      "cost": 315,
-      "engineering": 22,
-      "staffing": 8,
-      "energy": 18,
-      "risk": 9,
+      "reward": 136,
+      "cost": 110,
+      "engineering": 23,
+      "staffing": 15,
+      "energy": 15,
+      "risk": 10,
       "deps": [
         "P8"
       ]
     },
     {
       "id": "P10",
-      "reward": 35,
-      "cost": 230,
-      "engineering": 24,
-      "staffing": 16,
+      "reward": 57,
+      "cost": 93,
+      "engineering": 27,
+      "staffing": 13,
       "energy": 13,
       "risk": 6,
       "deps": [
@@ -116,181 +120,1688 @@
     },
     {
       "id": "P11",
-      "reward": 115,
-      "cost": 115,
-      "engineering": 6,
-      "staffing": 12,
-      "energy": 16,
-      "risk": 7,
-      "deps": []
+      "reward": 99,
+      "cost": 121,
+      "engineering": 18,
+      "staffing": 14,
+      "energy": 18,
+      "risk": 15,
+      "deps": [
+        "P10"
+      ]
     },
     {
       "id": "P12",
-      "reward": 35,
-      "cost": 199,
-      "engineering": 8,
-      "staffing": 17,
-      "energy": 8,
-      "risk": 10,
+      "reward": 81,
+      "cost": 259,
+      "engineering": 17,
+      "staffing": 12,
+      "energy": 12,
+      "risk": 6,
       "deps": [
         "P11"
       ]
     },
     {
       "id": "P13",
-      "reward": 106,
-      "cost": 266,
-      "engineering": 10,
-      "staffing": 16,
+      "reward": 83,
+      "cost": 343,
+      "engineering": 29,
+      "staffing": 13,
       "energy": 9,
-      "risk": 6,
-      "deps": [
-        "P12"
-      ]
-    },
-    {
-      "id": "P14",
-      "reward": 110,
-      "cost": 216,
-      "engineering": 7,
-      "staffing": 24,
-      "energy": 14,
-      "risk": 5,
-      "deps": [
-        "P13"
-      ]
-    },
-    {
-      "id": "P15",
-      "reward": 93,
-      "cost": 205,
-      "engineering": 10,
-      "staffing": 19,
-      "energy": 10,
-      "risk": 7,
+      "risk": 18,
       "deps": []
     },
     {
-      "id": "P16",
-      "reward": 106,
-      "cost": 192,
-      "engineering": 15,
-      "staffing": 6,
-      "energy": 7,
+      "id": "P14",
+      "reward": 137,
+      "cost": 208,
+      "engineering": 26,
+      "staffing": 28,
+      "energy": 21,
+      "risk": 11,
+      "deps": []
+    },
+    {
+      "id": "P15",
+      "reward": 123,
+      "cost": 98,
+      "engineering": 13,
+      "staffing": 7,
+      "energy": 14,
       "risk": 16,
       "deps": [
-        "P15"
+        "P1",
+        "P9"
       ]
+    },
+    {
+      "id": "P16",
+      "reward": 108,
+      "cost": 103,
+      "engineering": 12,
+      "staffing": 24,
+      "energy": 14,
+      "risk": 10,
+      "deps": []
     },
     {
       "id": "P17",
-      "reward": 29,
-      "cost": 241,
-      "engineering": 17,
-      "staffing": 13,
-      "energy": 5,
-      "risk": 6,
-      "deps": [
-        "P16"
-      ]
+      "reward": 167,
+      "cost": 272,
+      "engineering": 26,
+      "staffing": 20,
+      "energy": 8,
+      "risk": 12,
+      "deps": []
     },
     {
       "id": "P18",
-      "reward": 97,
-      "cost": 241,
-      "engineering": 11,
-      "staffing": 20,
-      "energy": 10,
-      "risk": 13,
+      "reward": 75,
+      "cost": 196,
+      "engineering": 29,
+      "staffing": 23,
+      "energy": 21,
+      "risk": 12,
       "deps": [
-        "P15"
+        "P17"
       ]
     },
     {
       "id": "P19",
-      "reward": 83,
-      "cost": 153,
-      "engineering": 13,
-      "staffing": 9,
-      "energy": 7,
-      "risk": 14,
+      "reward": 149,
+      "cost": 368,
+      "engineering": 18,
+      "staffing": 17,
+      "energy": 11,
+      "risk": 8,
       "deps": [
+        "P1",
         "P18"
       ]
     },
     {
       "id": "P20",
-      "reward": 96,
-      "cost": 214,
-      "engineering": 23,
-      "staffing": 18,
-      "energy": 18,
+      "reward": 170,
+      "cost": 322,
+      "engineering": 8,
+      "staffing": 30,
+      "energy": 5,
+      "risk": 7,
+      "deps": [
+        "P19",
+        "P3"
+      ]
+    },
+    {
+      "id": "P21",
+      "reward": 79,
+      "cost": 391,
+      "engineering": 11,
+      "staffing": 27,
+      "energy": 17,
+      "risk": 6,
+      "deps": [
+        "P20"
+      ]
+    },
+    {
+      "id": "P22",
+      "reward": 138,
+      "cost": 265,
+      "engineering": 25,
+      "staffing": 20,
+      "energy": 20,
       "risk": 12,
+      "deps": [
+        "P21"
+      ]
+    },
+    {
+      "id": "P23",
+      "reward": 42,
+      "cost": 418,
+      "engineering": 29,
+      "staffing": 9,
+      "energy": 21,
+      "risk": 12,
+      "deps": [
+        "P22"
+      ]
+    },
+    {
+      "id": "P24",
+      "reward": 127,
+      "cost": 127,
+      "engineering": 15,
+      "staffing": 19,
+      "energy": 9,
+      "risk": 18,
+      "deps": [
+        "P23"
+      ]
+    },
+    {
+      "id": "P25",
+      "reward": 40,
+      "cost": 204,
+      "engineering": 22,
+      "staffing": 30,
+      "energy": 9,
+      "risk": 20,
+      "deps": [
+        "P24"
+      ]
+    },
+    {
+      "id": "P26",
+      "reward": 67,
+      "cost": 390,
+      "engineering": 15,
+      "staffing": 26,
+      "energy": 20,
+      "risk": 10,
+      "deps": [
+        "P19",
+        "P21",
+        "P25"
+      ]
+    },
+    {
+      "id": "P27",
+      "reward": 79,
+      "cost": 261,
+      "engineering": 30,
+      "staffing": 11,
+      "energy": 21,
+      "risk": 20,
+      "deps": [
+        "P26"
+      ]
+    },
+    {
+      "id": "P28",
+      "reward": 40,
+      "cost": 376,
+      "engineering": 16,
+      "staffing": 21,
+      "energy": 4,
+      "risk": 7,
+      "deps": []
+    },
+    {
+      "id": "P29",
+      "reward": 132,
+      "cost": 227,
+      "engineering": 13,
+      "staffing": 7,
+      "energy": 11,
+      "risk": 6,
+      "deps": []
+    },
+    {
+      "id": "P30",
+      "reward": 61,
+      "cost": 318,
+      "engineering": 8,
+      "staffing": 30,
+      "energy": 21,
+      "risk": 8,
+      "deps": []
+    },
+    {
+      "id": "P31",
+      "reward": 72,
+      "cost": 407,
+      "engineering": 21,
+      "staffing": 23,
+      "energy": 9,
+      "risk": 12,
+      "deps": []
+    },
+    {
+      "id": "P32",
+      "reward": 148,
+      "cost": 178,
+      "engineering": 23,
+      "staffing": 30,
+      "energy": 10,
+      "risk": 13,
+      "deps": [
+        "P2"
+      ]
+    },
+    {
+      "id": "P33",
+      "reward": 142,
+      "cost": 413,
+      "engineering": 26,
+      "staffing": 17,
+      "energy": 18,
+      "risk": 20,
+      "deps": []
+    },
+    {
+      "id": "P34",
+      "reward": 155,
+      "cost": 131,
+      "engineering": 13,
+      "staffing": 13,
+      "energy": 6,
+      "risk": 14,
+      "deps": [
+        "P33"
+      ]
+    },
+    {
+      "id": "P35",
+      "reward": 45,
+      "cost": 371,
+      "engineering": 23,
+      "staffing": 13,
+      "energy": 22,
+      "risk": 11,
+      "deps": [
+        "P34"
+      ]
+    },
+    {
+      "id": "P36",
+      "reward": 41,
+      "cost": 106,
+      "engineering": 28,
+      "staffing": 26,
+      "energy": 5,
+      "risk": 11,
+      "deps": [
+        "P35"
+      ]
+    },
+    {
+      "id": "P37",
+      "reward": 57,
+      "cost": 86,
+      "engineering": 16,
+      "staffing": 8,
+      "energy": 20,
+      "risk": 11,
+      "deps": [
+        "P36"
+      ]
+    },
+    {
+      "id": "P38",
+      "reward": 111,
+      "cost": 412,
+      "engineering": 21,
+      "staffing": 12,
+      "energy": 21,
+      "risk": 8,
+      "deps": [
+        "P37"
+      ]
+    },
+    {
+      "id": "P39",
+      "reward": 161,
+      "cost": 194,
+      "engineering": 21,
+      "staffing": 19,
+      "energy": 10,
+      "risk": 7,
+      "deps": [
+        "P34",
+        "P38"
+      ]
+    },
+    {
+      "id": "P40",
+      "reward": 64,
+      "cost": 407,
+      "engineering": 19,
+      "staffing": 17,
+      "energy": 17,
+      "risk": 17,
+      "deps": [
+        "P39"
+      ]
+    },
+    {
+      "id": "P41",
+      "reward": 159,
+      "cost": 97,
+      "engineering": 27,
+      "staffing": 26,
+      "energy": 7,
+      "risk": 5,
+      "deps": [
+        "P40"
+      ]
+    },
+    {
+      "id": "P42",
+      "reward": 143,
+      "cost": 243,
+      "engineering": 9,
+      "staffing": 13,
+      "energy": 10,
+      "risk": 10,
+      "deps": [
+        "P41"
+      ]
+    },
+    {
+      "id": "P43",
+      "reward": 154,
+      "cost": 141,
+      "engineering": 19,
+      "staffing": 11,
+      "energy": 12,
+      "risk": 18,
+      "deps": [
+        "P5"
+      ]
+    },
+    {
+      "id": "P44",
+      "reward": 103,
+      "cost": 108,
+      "engineering": 20,
+      "staffing": 23,
+      "energy": 7,
+      "risk": 5,
+      "deps": []
+    },
+    {
+      "id": "P45",
+      "reward": 43,
+      "cost": 117,
+      "engineering": 30,
+      "staffing": 13,
+      "energy": 9,
+      "risk": 17,
+      "deps": [
+        "P35"
+      ]
+    },
+    {
+      "id": "P46",
+      "reward": 164,
+      "cost": 316,
+      "engineering": 12,
+      "staffing": 18,
+      "energy": 5,
+      "risk": 9,
+      "deps": []
+    },
+    {
+      "id": "P47",
+      "reward": 137,
+      "cost": 71,
+      "engineering": 18,
+      "staffing": 14,
+      "energy": 18,
+      "risk": 13,
+      "deps": []
+    },
+    {
+      "id": "P48",
+      "reward": 148,
+      "cost": 354,
+      "engineering": 27,
+      "staffing": 28,
+      "energy": 19,
+      "risk": 8,
+      "deps": []
+    },
+    {
+      "id": "P49",
+      "reward": 88,
+      "cost": 221,
+      "engineering": 12,
+      "staffing": 7,
+      "energy": 22,
+      "risk": 5,
+      "deps": []
+    },
+    {
+      "id": "P50",
+      "reward": 120,
+      "cost": 99,
+      "engineering": 7,
+      "staffing": 24,
+      "energy": 19,
+      "risk": 20,
+      "deps": [
+        "P49"
+      ]
+    },
+    {
+      "id": "P51",
+      "reward": 80,
+      "cost": 99,
+      "engineering": 22,
+      "staffing": 8,
+      "energy": 9,
+      "risk": 6,
+      "deps": [
+        "P50"
+      ]
+    },
+    {
+      "id": "P52",
+      "reward": 57,
+      "cost": 415,
+      "engineering": 13,
+      "staffing": 18,
+      "energy": 7,
+      "risk": 11,
+      "deps": [
+        "P51"
+      ]
+    },
+    {
+      "id": "P53",
+      "reward": 50,
+      "cost": 387,
+      "engineering": 8,
+      "staffing": 19,
+      "energy": 22,
+      "risk": 20,
+      "deps": [
+        "P52"
+      ]
+    },
+    {
+      "id": "P54",
+      "reward": 120,
+      "cost": 203,
+      "engineering": 12,
+      "staffing": 27,
+      "energy": 14,
+      "risk": 11,
+      "deps": [
+        "P41",
+        "P48",
+        "P53"
+      ]
+    },
+    {
+      "id": "P55",
+      "reward": 107,
+      "cost": 272,
+      "engineering": 10,
+      "staffing": 27,
+      "energy": 13,
+      "risk": 18,
+      "deps": [
+        "P54"
+      ]
+    },
+    {
+      "id": "P56",
+      "reward": 120,
+      "cost": 107,
+      "engineering": 6,
+      "staffing": 20,
+      "energy": 22,
+      "risk": 7,
+      "deps": [
+        "P3",
+        "P55"
+      ]
+    },
+    {
+      "id": "P57",
+      "reward": 58,
+      "cost": 345,
+      "engineering": 12,
+      "staffing": 22,
+      "energy": 12,
+      "risk": 8,
+      "deps": [
+        "P56"
+      ]
+    },
+    {
+      "id": "P58",
+      "reward": 129,
+      "cost": 105,
+      "engineering": 13,
+      "staffing": 17,
+      "energy": 13,
+      "risk": 9,
+      "deps": [
+        "P57"
+      ]
+    },
+    {
+      "id": "P59",
+      "reward": 152,
+      "cost": 348,
+      "engineering": 28,
+      "staffing": 15,
+      "energy": 20,
+      "risk": 4,
+      "deps": [
+        "P2"
+      ]
+    },
+    {
+      "id": "P60",
+      "reward": 116,
+      "cost": 409,
+      "engineering": 9,
+      "staffing": 10,
+      "energy": 12,
+      "risk": 7,
+      "deps": [
+        "P56"
+      ]
+    },
+    {
+      "id": "P61",
+      "reward": 67,
+      "cost": 353,
+      "engineering": 10,
+      "staffing": 14,
+      "energy": 13,
+      "risk": 10,
+      "deps": []
+    },
+    {
+      "id": "P62",
+      "reward": 127,
+      "cost": 174,
+      "engineering": 27,
+      "staffing": 26,
+      "energy": 12,
+      "risk": 20,
+      "deps": []
+    },
+    {
+      "id": "P63",
+      "reward": 165,
+      "cost": 198,
+      "engineering": 7,
+      "staffing": 8,
+      "energy": 17,
+      "risk": 12,
+      "deps": []
+    },
+    {
+      "id": "P64",
+      "reward": 51,
+      "cost": 71,
+      "engineering": 16,
+      "staffing": 30,
+      "energy": 8,
+      "risk": 12,
+      "deps": []
+    },
+    {
+      "id": "P65",
+      "reward": 81,
+      "cost": 296,
+      "engineering": 23,
+      "staffing": 28,
+      "energy": 17,
+      "risk": 4,
+      "deps": []
+    },
+    {
+      "id": "P66",
+      "reward": 68,
+      "cost": 108,
+      "engineering": 28,
+      "staffing": 10,
+      "energy": 21,
+      "risk": 5,
+      "deps": [
+        "P65"
+      ]
+    },
+    {
+      "id": "P67",
+      "reward": 134,
+      "cost": 368,
+      "engineering": 23,
+      "staffing": 10,
+      "energy": 17,
+      "risk": 8,
+      "deps": [
+        "P50",
+        "P52",
+        "P66"
+      ]
+    },
+    {
+      "id": "P68",
+      "reward": 50,
+      "cost": 227,
+      "engineering": 17,
+      "staffing": 7,
+      "energy": 15,
+      "risk": 10,
+      "deps": [
+        "P1",
+        "P51",
+        "P67"
+      ]
+    },
+    {
+      "id": "P69",
+      "reward": 103,
+      "cost": 411,
+      "engineering": 9,
+      "staffing": 17,
+      "energy": 21,
+      "risk": 17,
+      "deps": [
+        "P68"
+      ]
+    },
+    {
+      "id": "P70",
+      "reward": 79,
+      "cost": 191,
+      "engineering": 11,
+      "staffing": 11,
+      "energy": 17,
+      "risk": 4,
+      "deps": [
+        "P29",
+        "P69"
+      ]
+    },
+    {
+      "id": "P71",
+      "reward": 85,
+      "cost": 240,
+      "engineering": 19,
+      "staffing": 27,
+      "energy": 11,
+      "risk": 12,
+      "deps": [
+        "P54",
+        "P70"
+      ]
+    },
+    {
+      "id": "P72",
+      "reward": 80,
+      "cost": 125,
+      "engineering": 18,
+      "staffing": 7,
+      "energy": 19,
+      "risk": 11,
+      "deps": [
+        "P71"
+      ]
+    },
+    {
+      "id": "P73",
+      "reward": 91,
+      "cost": 305,
+      "engineering": 17,
+      "staffing": 15,
+      "energy": 11,
+      "risk": 11,
+      "deps": [
+        "P72"
+      ]
+    },
+    {
+      "id": "P74",
+      "reward": 46,
+      "cost": 407,
+      "engineering": 12,
+      "staffing": 18,
+      "energy": 14,
+      "risk": 12,
+      "deps": [
+        "P49"
+      ]
+    },
+    {
+      "id": "P75",
+      "reward": 57,
+      "cost": 212,
+      "engineering": 17,
+      "staffing": 26,
+      "energy": 20,
+      "risk": 16,
+      "deps": [
+        "P41",
+        "P5"
+      ]
+    },
+    {
+      "id": "P76",
+      "reward": 124,
+      "cost": 84,
+      "engineering": 9,
+      "staffing": 14,
+      "energy": 9,
+      "risk": 12,
+      "deps": []
+    },
+    {
+      "id": "P77",
+      "reward": 49,
+      "cost": 125,
+      "engineering": 25,
+      "staffing": 19,
+      "energy": 15,
+      "risk": 14,
+      "deps": [
+        "P74"
+      ]
+    },
+    {
+      "id": "P78",
+      "reward": 151,
+      "cost": 380,
+      "engineering": 22,
+      "staffing": 9,
+      "energy": 16,
+      "risk": 10,
+      "deps": []
+    },
+    {
+      "id": "P79",
+      "reward": 105,
+      "cost": 92,
+      "engineering": 28,
+      "staffing": 19,
+      "energy": 4,
+      "risk": 20,
+      "deps": []
+    },
+    {
+      "id": "P80",
+      "reward": 90,
+      "cost": 256,
+      "engineering": 19,
+      "staffing": 8,
+      "energy": 14,
+      "risk": 14,
+      "deps": [
+        "P65",
+        "P74"
+      ]
+    },
+    {
+      "id": "P81",
+      "reward": 71,
+      "cost": 223,
+      "engineering": 22,
+      "staffing": 15,
+      "energy": 17,
+      "risk": 14,
+      "deps": [
+        "P62"
+      ]
+    },
+    {
+      "id": "P82",
+      "reward": 143,
+      "cost": 221,
+      "engineering": 23,
+      "staffing": 10,
+      "energy": 10,
+      "risk": 17,
+      "deps": [
+        "P81"
+      ]
+    },
+    {
+      "id": "P83",
+      "reward": 137,
+      "cost": 416,
+      "engineering": 29,
+      "staffing": 11,
+      "energy": 22,
+      "risk": 13,
+      "deps": [
+        "P82"
+      ]
+    },
+    {
+      "id": "P84",
+      "reward": 143,
+      "cost": 350,
+      "engineering": 6,
+      "staffing": 15,
+      "energy": 13,
+      "risk": 10,
+      "deps": [
+        "P83"
+      ]
+    },
+    {
+      "id": "P85",
+      "reward": 150,
+      "cost": 366,
+      "engineering": 25,
+      "staffing": 26,
+      "energy": 14,
+      "risk": 18,
+      "deps": [
+        "P44",
+        "P84"
+      ]
+    },
+    {
+      "id": "P86",
+      "reward": 153,
+      "cost": 296,
+      "engineering": 27,
+      "staffing": 12,
+      "energy": 20,
+      "risk": 19,
+      "deps": [
+        "P29",
+        "P85"
+      ]
+    },
+    {
+      "id": "P87",
+      "reward": 83,
+      "cost": 407,
+      "engineering": 8,
+      "staffing": 15,
+      "energy": 20,
+      "risk": 14,
+      "deps": [
+        "P27",
+        "P86"
+      ]
+    },
+    {
+      "id": "P88",
+      "reward": 63,
+      "cost": 190,
+      "engineering": 27,
+      "staffing": 15,
+      "energy": 11,
+      "risk": 10,
+      "deps": [
+        "P87"
+      ]
+    },
+    {
+      "id": "P89",
+      "reward": 77,
+      "cost": 82,
+      "engineering": 7,
+      "staffing": 13,
+      "energy": 19,
+      "risk": 6,
+      "deps": [
+        "P88"
+      ]
+    },
+    {
+      "id": "P90",
+      "reward": 156,
+      "cost": 282,
+      "engineering": 26,
+      "staffing": 24,
+      "energy": 10,
+      "risk": 16,
       "deps": [
         "P10"
       ]
     },
     {
-      "id": "P21",
-      "reward": 76,
-      "cost": 265,
-      "engineering": 12,
-      "staffing": 9,
-      "energy": 12,
-      "risk": 10,
+      "id": "P91",
+      "reward": 166,
+      "cost": 274,
+      "engineering": 13,
+      "staffing": 10,
+      "energy": 4,
+      "risk": 7,
       "deps": []
     },
     {
-      "id": "P22",
-      "reward": 36,
-      "cost": 104,
-      "engineering": 8,
+      "id": "P92",
+      "reward": 148,
+      "cost": 182,
+      "engineering": 11,
+      "staffing": 28,
+      "energy": 20,
+      "risk": 18,
+      "deps": []
+    },
+    {
+      "id": "P93",
+      "reward": 52,
+      "cost": 355,
+      "engineering": 13,
       "staffing": 9,
+      "energy": 18,
+      "risk": 8,
+      "deps": []
+    },
+    {
+      "id": "P94",
+      "reward": 158,
+      "cost": 411,
+      "engineering": 22,
+      "staffing": 23,
       "energy": 14,
-      "risk": 5,
+      "risk": 18,
+      "deps": [
+        "P79",
+        "P80"
+      ]
+    },
+    {
+      "id": "P95",
+      "reward": 169,
+      "cost": 288,
+      "engineering": 23,
+      "staffing": 20,
+      "energy": 9,
+      "risk": 19,
       "deps": []
     },
     {
-      "id": "P23",
-      "reward": 112,
-      "cost": 296,
-      "engineering": 24,
-      "staffing": 7,
-      "energy": 10,
+      "id": "P96",
+      "reward": 155,
+      "cost": 202,
+      "engineering": 30,
+      "staffing": 13,
+      "energy": 12,
+      "risk": 20,
+      "deps": []
+    },
+    {
+      "id": "P97",
+      "reward": 164,
+      "cost": 390,
+      "engineering": 13,
+      "staffing": 14,
+      "energy": 18,
+      "risk": 6,
+      "deps": []
+    },
+    {
+      "id": "P98",
+      "reward": 113,
+      "cost": 190,
+      "engineering": 14,
+      "staffing": 16,
+      "energy": 14,
+      "risk": 6,
+      "deps": [
+        "P97"
+      ]
+    },
+    {
+      "id": "P99",
+      "reward": 75,
+      "cost": 147,
+      "engineering": 13,
+      "staffing": 18,
+      "energy": 8,
+      "risk": 10,
+      "deps": [
+        "P98"
+      ]
+    },
+    {
+      "id": "P100",
+      "reward": 56,
+      "cost": 282,
+      "engineering": 19,
+      "staffing": 16,
+      "energy": 21,
+      "risk": 18,
+      "deps": [
+        "P99"
+      ]
+    },
+    {
+      "id": "P101",
+      "reward": 146,
+      "cost": 101,
+      "engineering": 12,
+      "staffing": 19,
+      "energy": 16,
+      "risk": 4,
+      "deps": [
+        "P100"
+      ]
+    },
+    {
+      "id": "P102",
+      "reward": 137,
+      "cost": 314,
+      "engineering": 6,
+      "staffing": 17,
+      "energy": 13,
+      "risk": 16,
+      "deps": [
+        "P101"
+      ]
+    },
+    {
+      "id": "P103",
+      "reward": 147,
+      "cost": 345,
+      "engineering": 29,
+      "staffing": 29,
+      "energy": 21,
+      "risk": 11,
+      "deps": [
+        "P102"
+      ]
+    },
+    {
+      "id": "P104",
+      "reward": 164,
+      "cost": 182,
+      "engineering": 14,
+      "staffing": 19,
+      "energy": 19,
+      "risk": 4,
+      "deps": [
+        "P103",
+        "P5"
+      ]
+    },
+    {
+      "id": "P105",
+      "reward": 139,
+      "cost": 242,
+      "engineering": 27,
+      "staffing": 27,
+      "energy": 16,
       "risk": 9,
       "deps": []
     },
     {
-      "id": "P24",
-      "reward": 101,
-      "cost": 319,
-      "engineering": 21,
-      "staffing": 13,
-      "energy": 12,
+      "id": "P106",
+      "reward": 159,
+      "cost": 135,
+      "engineering": 25,
+      "staffing": 23,
+      "energy": 4,
       "risk": 16,
       "deps": []
     },
     {
-      "id": "P25",
-      "reward": 26,
-      "cost": 138,
-      "engineering": 22,
-      "staffing": 13,
+      "id": "P107",
+      "reward": 46,
+      "cost": 112,
+      "engineering": 26,
+      "staffing": 19,
+      "energy": 8,
+      "risk": 18,
+      "deps": [
+        "P105",
+        "P94"
+      ]
+    },
+    {
+      "id": "P108",
+      "reward": 86,
+      "cost": 95,
+      "engineering": 14,
+      "staffing": 18,
+      "energy": 14,
+      "risk": 10,
+      "deps": [
+        "P14"
+      ]
+    },
+    {
+      "id": "P109",
+      "reward": 156,
+      "cost": 237,
+      "engineering": 16,
+      "staffing": 30,
       "energy": 16,
+      "risk": 12,
+      "deps": []
+    },
+    {
+      "id": "P110",
+      "reward": 147,
+      "cost": 199,
+      "engineering": 8,
+      "staffing": 21,
+      "energy": 4,
+      "risk": 5,
+      "deps": []
+    },
+    {
+      "id": "P111",
+      "reward": 129,
+      "cost": 184,
+      "engineering": 26,
+      "staffing": 8,
+      "energy": 5,
+      "risk": 4,
+      "deps": [
+        "P99"
+      ]
+    },
+    {
+      "id": "P112",
+      "reward": 103,
+      "cost": 172,
+      "engineering": 6,
+      "staffing": 25,
+      "energy": 8,
+      "risk": 11,
+      "deps": []
+    },
+    {
+      "id": "P113",
+      "reward": 72,
+      "cost": 312,
+      "engineering": 27,
+      "staffing": 9,
+      "energy": 22,
+      "risk": 10,
+      "deps": []
+    },
+    {
+      "id": "P114",
+      "reward": 159,
+      "cost": 201,
+      "engineering": 30,
+      "staffing": 17,
+      "energy": 9,
+      "risk": 7,
+      "deps": [
+        "P113"
+      ]
+    },
+    {
+      "id": "P115",
+      "reward": 81,
+      "cost": 229,
+      "engineering": 9,
+      "staffing": 24,
+      "energy": 4,
       "risk": 13,
       "deps": [
-        "P17"
+        "P114"
       ]
+    },
+    {
+      "id": "P116",
+      "reward": 136,
+      "cost": 273,
+      "engineering": 28,
+      "staffing": 12,
+      "energy": 6,
+      "risk": 11,
+      "deps": [
+        "P115"
+      ]
+    },
+    {
+      "id": "P117",
+      "reward": 66,
+      "cost": 224,
+      "engineering": 27,
+      "staffing": 25,
+      "energy": 7,
+      "risk": 5,
+      "deps": [
+        "P116"
+      ]
+    },
+    {
+      "id": "P118",
+      "reward": 128,
+      "cost": 342,
+      "engineering": 19,
+      "staffing": 27,
+      "energy": 15,
+      "risk": 6,
+      "deps": [
+        "P10",
+        "P117"
+      ]
+    },
+    {
+      "id": "P119",
+      "reward": 169,
+      "cost": 401,
+      "engineering": 16,
+      "staffing": 6,
+      "energy": 17,
+      "risk": 19,
+      "deps": [
+        "P105",
+        "P116",
+        "P118"
+      ]
+    },
+    {
+      "id": "P120",
+      "reward": 67,
+      "cost": 291,
+      "engineering": 17,
+      "staffing": 26,
+      "energy": 18,
+      "risk": 8,
+      "deps": [
+        "P119"
+      ]
+    },
+    {
+      "id": "P121",
+      "reward": 151,
+      "cost": 160,
+      "engineering": 29,
+      "staffing": 22,
+      "energy": 12,
+      "risk": 19,
+      "deps": [
+        "P49"
+      ]
+    },
+    {
+      "id": "P122",
+      "reward": 159,
+      "cost": 293,
+      "engineering": 29,
+      "staffing": 24,
+      "energy": 12,
+      "risk": 14,
+      "deps": [
+        "P24"
+      ]
+    },
+    {
+      "id": "P123",
+      "reward": 102,
+      "cost": 114,
+      "engineering": 14,
+      "staffing": 20,
+      "energy": 11,
+      "risk": 18,
+      "deps": []
+    },
+    {
+      "id": "P124",
+      "reward": 137,
+      "cost": 242,
+      "engineering": 6,
+      "staffing": 21,
+      "energy": 14,
+      "risk": 9,
+      "deps": []
+    },
+    {
+      "id": "P125",
+      "reward": 164,
+      "cost": 178,
+      "engineering": 17,
+      "staffing": 14,
+      "energy": 14,
+      "risk": 12,
+      "deps": [
+        "P103",
+        "P67"
+      ]
+    },
+    {
+      "id": "P126",
+      "reward": 110,
+      "cost": 354,
+      "engineering": 6,
+      "staffing": 22,
+      "energy": 10,
+      "risk": 6,
+      "deps": []
+    },
+    {
+      "id": "P127",
+      "reward": 101,
+      "cost": 278,
+      "engineering": 21,
+      "staffing": 23,
+      "energy": 11,
+      "risk": 19,
+      "deps": []
+    },
+    {
+      "id": "P128",
+      "reward": 165,
+      "cost": 299,
+      "engineering": 6,
+      "staffing": 8,
+      "energy": 13,
+      "risk": 11,
+      "deps": [
+        "P50"
+      ]
+    },
+    {
+      "id": "P129",
+      "reward": 143,
+      "cost": 194,
+      "engineering": 15,
+      "staffing": 27,
+      "energy": 22,
+      "risk": 15,
+      "deps": []
+    },
+    {
+      "id": "P130",
+      "reward": 161,
+      "cost": 353,
+      "engineering": 22,
+      "staffing": 17,
+      "energy": 17,
+      "risk": 14,
+      "deps": []
+    },
+    {
+      "id": "P131",
+      "reward": 130,
+      "cost": 302,
+      "engineering": 14,
+      "staffing": 15,
+      "energy": 12,
+      "risk": 11,
+      "deps": [
+        "P113",
+        "P85"
+      ]
+    },
+    {
+      "id": "P132",
+      "reward": 70,
+      "cost": 168,
+      "engineering": 16,
+      "staffing": 9,
+      "energy": 21,
+      "risk": 9,
+      "deps": [
+        "P126",
+        "P130",
+        "P82"
+      ]
+    },
+    {
+      "id": "P133",
+      "reward": 89,
+      "cost": 180,
+      "engineering": 29,
+      "staffing": 21,
+      "energy": 12,
+      "risk": 20,
+      "deps": [
+        "P48",
+        "P95"
+      ]
+    },
+    {
+      "id": "P134",
+      "reward": 112,
+      "cost": 121,
+      "engineering": 12,
+      "staffing": 15,
+      "energy": 11,
+      "risk": 15,
+      "deps": []
+    },
+    {
+      "id": "P135",
+      "reward": 85,
+      "cost": 224,
+      "engineering": 6,
+      "staffing": 28,
+      "energy": 21,
+      "risk": 8,
+      "deps": [
+        "P77"
+      ]
+    },
+    {
+      "id": "P136",
+      "reward": 110,
+      "cost": 93,
+      "engineering": 7,
+      "staffing": 23,
+      "energy": 13,
+      "risk": 8,
+      "deps": []
+    },
+    {
+      "id": "P137",
+      "reward": 165,
+      "cost": 122,
+      "engineering": 6,
+      "staffing": 24,
+      "energy": 13,
+      "risk": 19,
+      "deps": []
+    },
+    {
+      "id": "P138",
+      "reward": 162,
+      "cost": 295,
+      "engineering": 16,
+      "staffing": 11,
+      "energy": 5,
+      "risk": 12,
+      "deps": []
+    },
+    {
+      "id": "P139",
+      "reward": 162,
+      "cost": 128,
+      "engineering": 8,
+      "staffing": 18,
+      "energy": 19,
+      "risk": 6,
+      "deps": []
+    },
+    {
+      "id": "P140",
+      "reward": 53,
+      "cost": 147,
+      "engineering": 10,
+      "staffing": 24,
+      "energy": 13,
+      "risk": 6,
+      "deps": [
+        "P22",
+        "P47",
+        "P92"
+      ]
+    },
+    {
+      "id": "P141",
+      "reward": 103,
+      "cost": 130,
+      "engineering": 23,
+      "staffing": 30,
+      "energy": 17,
+      "risk": 11,
+      "deps": [
+        "P40"
+      ]
+    },
+    {
+      "id": "P142",
+      "reward": 137,
+      "cost": 300,
+      "engineering": 20,
+      "staffing": 15,
+      "energy": 22,
+      "risk": 17,
+      "deps": [
+        "P40"
+      ]
+    },
+    {
+      "id": "P143",
+      "reward": 118,
+      "cost": 361,
+      "engineering": 25,
+      "staffing": 7,
+      "energy": 7,
+      "risk": 10,
+      "deps": [
+        "P10",
+        "P114"
+      ]
+    },
+    {
+      "id": "P144",
+      "reward": 94,
+      "cost": 205,
+      "engineering": 27,
+      "staffing": 8,
+      "energy": 9,
+      "risk": 11,
+      "deps": [
+        "P32"
+      ]
+    },
+    {
+      "id": "P145",
+      "reward": 84,
+      "cost": 352,
+      "engineering": 8,
+      "staffing": 11,
+      "energy": 4,
+      "risk": 17,
+      "deps": [
+        "P87"
+      ]
+    },
+    {
+      "id": "P146",
+      "reward": 155,
+      "cost": 374,
+      "engineering": 21,
+      "staffing": 15,
+      "energy": 5,
+      "risk": 11,
+      "deps": [
+        "P117",
+        "P67"
+      ]
+    },
+    {
+      "id": "P147",
+      "reward": 113,
+      "cost": 214,
+      "engineering": 28,
+      "staffing": 20,
+      "energy": 6,
+      "risk": 11,
+      "deps": []
+    },
+    {
+      "id": "P148",
+      "reward": 107,
+      "cost": 390,
+      "engineering": 24,
+      "staffing": 27,
+      "energy": 10,
+      "risk": 17,
+      "deps": []
+    },
+    {
+      "id": "P149",
+      "reward": 69,
+      "cost": 348,
+      "engineering": 13,
+      "staffing": 26,
+      "energy": 8,
+      "risk": 12,
+      "deps": [
+        "P24"
+      ]
+    },
+    {
+      "id": "P150",
+      "reward": 76,
+      "cost": 106,
+      "engineering": 7,
+      "staffing": 11,
+      "energy": 13,
+      "risk": 13,
+      "deps": []
     }
   ],
   "interactions": [
     {
       "projects": [
-        "P1",
-        "P3"
+        "P52",
+        "P56"
       ],
       "type": "synergy",
-      "value": 12
+      "value": 29
+    },
+    {
+      "projects": [
+        "P127",
+        "P131"
+      ],
+      "type": "conflict",
+      "value": 23
+    },
+    {
+      "projects": [
+        "P31",
+        "P35"
+      ],
+      "type": "synergy",
+      "value": 24
+    },
+    {
+      "projects": [
+        "P53",
+        "P57"
+      ],
+      "type": "synergy",
+      "value": 9
+    },
+    {
+      "projects": [
+        "P112",
+        "P123"
+      ],
+      "type": "synergy",
+      "value": 27
+    },
+    {
+      "projects": [
+        "P126",
+        "P137"
+      ],
+      "type": "synergy",
+      "value": 13
+    },
+    {
+      "projects": [
+        "P128",
+        "P132"
+      ],
+      "type": "synergy",
+      "value": 9
+    },
+    {
+      "projects": [
+        "P99",
+        "P102"
+      ],
+      "type": "synergy",
+      "value": 16
     },
     {
       "projects": [
@@ -298,39 +1809,343 @@
         "P6"
       ],
       "type": "synergy",
+      "value": 14
+    },
+    {
+      "projects": [
+        "P141",
+        "P143"
+      ],
+      "type": "synergy",
       "value": 11
     },
     {
       "projects": [
-        "P6",
-        "P7"
+        "P138",
+        "P144"
       ],
       "type": "synergy",
-      "value": 8
+      "value": 20
     },
     {
       "projects": [
-        "P8",
-        "P14"
+        "P135",
+        "P145"
       ],
       "type": "synergy",
-      "value": 27
+      "value": 25
     },
     {
       "projects": [
-        "P9",
-        "P10"
+        "P68",
+        "P78"
+      ],
+      "type": "synergy",
+      "value": 34
+    },
+    {
+      "projects": [
+        "P59",
+        "P70"
+      ],
+      "type": "conflict",
+      "value": 26
+    },
+    {
+      "projects": [
+        "P51",
+        "P55"
+      ],
+      "type": "synergy",
+      "value": 24
+    },
+    {
+      "projects": [
+        "P113",
+        "P124"
       ],
       "type": "synergy",
       "value": 21
     },
     {
       "projects": [
-        "P11",
-        "P15"
+        "P130",
+        "P140"
+      ],
+      "type": "conflict",
+      "value": 17
+    },
+    {
+      "projects": [
+        "P120",
+        "P128"
+      ],
+      "type": "conflict",
+      "value": 20
+    },
+    {
+      "projects": [
+        "P71",
+        "P106"
+      ],
+      "type": "conflict",
+      "value": 20
+    },
+    {
+      "projects": [
+        "P136",
+        "P138"
       ],
       "type": "synergy",
+      "value": 30
+    },
+    {
+      "projects": [
+        "P66",
+        "P74"
+      ],
+      "type": "synergy",
+      "value": 33
+    },
+    {
+      "projects": [
+        "P52",
+        "P53"
+      ],
+      "type": "synergy",
+      "value": 33
+    },
+    {
+      "projects": [
+        "P51",
+        "P54"
+      ],
+      "type": "synergy",
+      "value": 10
+    },
+    {
+      "projects": [
+        "P85",
+        "P93"
+      ],
+      "type": "synergy",
+      "value": 19
+    },
+    {
+      "projects": [
+        "P21",
+        "P148"
+      ],
+      "type": "conflict",
+      "value": 14
+    },
+    {
+      "projects": [
+        "P17",
+        "P23"
+      ],
+      "type": "conflict",
+      "value": 30
+    },
+    {
+      "projects": [
+        "P133",
+        "P144"
+      ],
+      "type": "synergy",
+      "value": 31
+    },
+    {
+      "projects": [
+        "P1",
+        "P134"
+      ],
+      "type": "synergy",
+      "value": 14
+    },
+    {
+      "projects": [
+        "P34",
+        "P37"
+      ],
+      "type": "conflict",
       "value": 11
+    },
+    {
+      "projects": [
+        "P6",
+        "P9"
+      ],
+      "type": "synergy",
+      "value": 23
+    },
+    {
+      "projects": [
+        "P71",
+        "P148"
+      ],
+      "type": "synergy",
+      "value": 15
+    },
+    {
+      "projects": [
+        "P133",
+        "P139"
+      ],
+      "type": "synergy",
+      "value": 15
+    },
+    {
+      "projects": [
+        "P67",
+        "P79"
+      ],
+      "type": "conflict",
+      "value": 19
+    },
+    {
+      "projects": [
+        "P122",
+        "P130"
+      ],
+      "type": "conflict",
+      "value": 25
+    },
+    {
+      "projects": [
+        "P109",
+        "P114"
+      ],
+      "type": "synergy",
+      "value": 26
+    },
+    {
+      "projects": [
+        "P55",
+        "P58"
+      ],
+      "type": "synergy",
+      "value": 10
+    },
+    {
+      "projects": [
+        "P55",
+        "P66"
+      ],
+      "type": "conflict",
+      "value": 15
+    },
+    {
+      "projects": [
+        "P75",
+        "P84"
+      ],
+      "type": "synergy",
+      "value": 33
+    },
+    {
+      "projects": [
+        "P46",
+        "P52"
+      ],
+      "type": "synergy",
+      "value": 29
+    },
+    {
+      "projects": [
+        "P21",
+        "P78"
+      ],
+      "type": "synergy",
+      "value": 12
+    },
+    {
+      "projects": [
+        "P117",
+        "P127"
+      ],
+      "type": "conflict",
+      "value": 22
+    },
+    {
+      "projects": [
+        "P102",
+        "P105"
+      ],
+      "type": "conflict",
+      "value": 32
+    },
+    {
+      "projects": [
+        "P52",
+        "P63"
+      ],
+      "type": "synergy",
+      "value": 21
+    },
+    {
+      "projects": [
+        "P54",
+        "P66"
+      ],
+      "type": "synergy",
+      "value": 14
+    },
+    {
+      "projects": [
+        "P88",
+        "P96"
+      ],
+      "type": "synergy",
+      "value": 24
+    },
+    {
+      "projects": [
+        "P117",
+        "P123"
+      ],
+      "type": "synergy",
+      "value": 34
+    },
+    {
+      "projects": [
+        "P113",
+        "P118"
+      ],
+      "type": "synergy",
+      "value": 34
+    },
+    {
+      "projects": [
+        "P142",
+        "P144"
+      ],
+      "type": "synergy",
+      "value": 22
+    },
+    {
+      "projects": [
+        "P93",
+        "P97"
+      ],
+      "type": "synergy",
+      "value": 28
+    },
+    {
+      "projects": [
+        "P136",
+        "P145"
+      ],
+      "type": "conflict",
+      "value": 14
+    },
+    {
+      "projects": [
+        "P9",
+        "P16"
+      ],
+      "type": "synergy",
+      "value": 19
     },
     {
       "projects": [
@@ -338,54 +2153,638 @@
         "P16"
       ],
       "type": "synergy",
+      "value": 19
+    },
+    {
+      "projects": [
+        "P124",
+        "P132"
+      ],
+      "type": "synergy",
+      "value": 18
+    },
+    {
+      "projects": [
+        "P1",
+        "P73"
+      ],
+      "type": "synergy",
+      "value": 31
+    },
+    {
+      "projects": [
+        "P18",
+        "P22"
+      ],
+      "type": "synergy",
+      "value": 31
+    },
+    {
+      "projects": [
+        "P101",
+        "P120"
+      ],
+      "type": "synergy",
+      "value": 23
+    },
+    {
+      "projects": [
+        "P76",
+        "P77"
+      ],
+      "type": "synergy",
+      "value": 20
+    },
+    {
+      "projects": [
+        "P130",
+        "P133"
+      ],
+      "type": "synergy",
+      "value": 22
+    },
+    {
+      "projects": [
+        "P95",
+        "P103"
+      ],
+      "type": "synergy",
+      "value": 34
+    },
+    {
+      "projects": [
+        "P27",
+        "P37"
+      ],
+      "type": "conflict",
       "value": 11
     },
     {
       "projects": [
         "P17",
-        "P18"
+        "P21"
+      ],
+      "type": "synergy",
+      "value": 21
+    },
+    {
+      "projects": [
+        "P11",
+        "P13"
+      ],
+      "type": "synergy",
+      "value": 34
+    },
+    {
+      "projects": [
+        "P20",
+        "P24"
+      ],
+      "type": "conflict",
+      "value": 14
+    },
+    {
+      "projects": [
+        "P48",
+        "P49"
+      ],
+      "type": "conflict",
+      "value": 13
+    },
+    {
+      "projects": [
+        "P16",
+        "P21"
+      ],
+      "type": "conflict",
+      "value": 30
+    },
+    {
+      "projects": [
+        "P64",
+        "P72"
+      ],
+      "type": "conflict",
+      "value": 10
+    },
+    {
+      "projects": [
+        "P25",
+        "P36"
+      ],
+      "type": "synergy",
+      "value": 16
+    },
+    {
+      "projects": [
+        "P127",
+        "P137"
+      ],
+      "type": "conflict",
+      "value": 20
+    },
+    {
+      "projects": [
+        "P143",
+        "P148"
+      ],
+      "type": "synergy",
+      "value": 27
+    },
+    {
+      "projects": [
+        "P16",
+        "P19"
+      ],
+      "type": "synergy",
+      "value": 13
+    },
+    {
+      "projects": [
+        "P22",
+        "P24"
+      ],
+      "type": "synergy",
+      "value": 20
+    },
+    {
+      "projects": [
+        "P115",
+        "P127"
+      ],
+      "type": "synergy",
+      "value": 33
+    },
+    {
+      "projects": [
+        "P134",
+        "P146"
+      ],
+      "type": "synergy",
+      "value": 13
+    },
+    {
+      "projects": [
+        "P58",
+        "P59"
+      ],
+      "type": "synergy",
+      "value": 21
+    },
+    {
+      "projects": [
+        "P128",
+        "P131"
+      ],
+      "type": "synergy",
+      "value": 17
+    },
+    {
+      "projects": [
+        "P71",
+        "P113"
+      ],
+      "type": "synergy",
+      "value": 12
+    },
+    {
+      "projects": [
+        "P137",
+        "P146"
+      ],
+      "type": "synergy",
+      "value": 14
+    },
+    {
+      "projects": [
+        "P126",
+        "P138"
+      ],
+      "type": "synergy",
+      "value": 21
+    },
+    {
+      "projects": [
+        "P105",
+        "P117"
       ],
       "type": "conflict",
       "value": 12
     },
     {
       "projects": [
-        "P19",
-        "P21"
+        "P56",
+        "P62"
+      ],
+      "type": "synergy",
+      "value": 17
+    },
+    {
+      "projects": [
+        "P139",
+        "P143"
+      ],
+      "type": "synergy",
+      "value": 15
+    },
+    {
+      "projects": [
+        "P11",
+        "P29"
+      ],
+      "type": "conflict",
+      "value": 18
+    },
+    {
+      "projects": [
+        "P3",
+        "P5"
       ],
       "type": "synergy",
       "value": 24
     },
     {
       "projects": [
-        "P20",
-        "P22"
+        "P37",
+        "P49"
+      ],
+      "type": "synergy",
+      "value": 13
+    },
+    {
+      "projects": [
+        "P5",
+        "P14"
+      ],
+      "type": "conflict",
+      "value": 23
+    },
+    {
+      "projects": [
+        "P3",
+        "P13"
+      ],
+      "type": "synergy",
+      "value": 31
+    },
+    {
+      "projects": [
+        "P48",
+        "P56"
+      ],
+      "type": "synergy",
+      "value": 11
+    },
+    {
+      "projects": [
+        "P65",
+        "P75"
+      ],
+      "type": "conflict",
+      "value": 19
+    },
+    {
+      "projects": [
+        "P51",
+        "P52"
+      ],
+      "type": "synergy",
+      "value": 31
+    },
+    {
+      "projects": [
+        "P123",
+        "P133"
+      ],
+      "type": "synergy",
+      "value": 26
+    },
+    {
+      "projects": [
+        "P93",
+        "P94"
+      ],
+      "type": "synergy",
+      "value": 18
+    },
+    {
+      "projects": [
+        "P96",
+        "P100"
+      ],
+      "type": "conflict",
+      "value": 31
+    },
+    {
+      "projects": [
+        "P82",
+        "P137"
+      ],
+      "type": "synergy",
+      "value": 31
+    },
+    {
+      "projects": [
+        "P9",
+        "P11"
+      ],
+      "type": "synergy",
+      "value": 34
+    },
+    {
+      "projects": [
+        "P84",
+        "P96"
+      ],
+      "type": "synergy",
+      "value": 16
+    },
+    {
+      "projects": [
+        "P69",
+        "P76"
+      ],
+      "type": "synergy",
+      "value": 15
+    },
+    {
+      "projects": [
+        "P61",
+        "P106"
+      ],
+      "type": "conflict",
+      "value": 16
+    },
+    {
+      "projects": [
+        "P79",
+        "P88"
+      ],
+      "type": "conflict",
+      "value": 9
+    },
+    {
+      "projects": [
+        "P118",
+        "P128"
+      ],
+      "type": "synergy",
+      "value": 27
+    },
+    {
+      "projects": [
+        "P8",
+        "P12"
+      ],
+      "type": "synergy",
+      "value": 34
+    },
+    {
+      "projects": [
+        "P111",
+        "P115"
+      ],
+      "type": "conflict",
+      "value": 13
+    },
+    {
+      "projects": [
+        "P34",
+        "P36"
+      ],
+      "type": "synergy",
+      "value": 11
+    },
+    {
+      "projects": [
+        "P111",
+        "P134"
+      ],
+      "type": "synergy",
+      "value": 21
+    },
+    {
+      "projects": [
+        "P74",
+        "P86"
+      ],
+      "type": "conflict",
+      "value": 32
+    },
+    {
+      "projects": [
+        "P66",
+        "P78"
+      ],
+      "type": "synergy",
+      "value": 22
+    },
+    {
+      "projects": [
+        "P11",
+        "P120"
+      ],
+      "type": "conflict",
+      "value": 27
+    },
+    {
+      "projects": [
+        "P147",
+        "P150"
+      ],
+      "type": "synergy",
+      "value": 19
+    },
+    {
+      "projects": [
+        "P137",
+        "P142"
+      ],
+      "type": "synergy",
+      "value": 23
+    },
+    {
+      "projects": [
+        "P91",
+        "P101"
+      ],
+      "type": "synergy",
+      "value": 25
+    },
+    {
+      "projects": [
+        "P30",
+        "P31"
+      ],
+      "type": "synergy",
+      "value": 33
+    },
+    {
+      "projects": [
+        "P80",
+        "P89"
+      ],
+      "type": "synergy",
+      "value": 27
+    },
+    {
+      "projects": [
+        "P26",
+        "P27"
+      ],
+      "type": "synergy",
+      "value": 13
+    },
+    {
+      "projects": [
+        "P93",
+        "P99"
       ],
       "type": "synergy",
       "value": 10
     },
     {
       "projects": [
+        "P3",
+        "P12"
+      ],
+      "type": "conflict",
+      "value": 25
+    },
+    {
+      "projects": [
+        "P122",
+        "P131"
+      ],
+      "type": "synergy",
+      "value": 14
+    },
+    {
+      "projects": [
         "P23",
-        "P24"
+        "P27"
+      ],
+      "type": "synergy",
+      "value": 31
+    },
+    {
+      "projects": [
+        "P82",
+        "P88"
+      ],
+      "type": "synergy",
+      "value": 25
+    },
+    {
+      "projects": [
+        "P3",
+        "P14"
+      ],
+      "type": "conflict",
+      "value": 11
+    },
+    {
+      "projects": [
+        "P54",
+        "P58"
+      ],
+      "type": "synergy",
+      "value": 29
+    },
+    {
+      "projects": [
+        "P79",
+        "P80"
+      ],
+      "type": "conflict",
+      "value": 17
+    },
+    {
+      "projects": [
+        "P85",
+        "P96"
+      ],
+      "type": "synergy",
+      "value": 18
+    },
+    {
+      "projects": [
+        "P78",
+        "P85"
+      ],
+      "type": "synergy",
+      "value": 11
+    },
+    {
+      "projects": [
+        "P38",
+        "P44"
+      ],
+      "type": "synergy",
+      "value": 14
+    },
+    {
+      "projects": [
+        "P69",
+        "P75"
+      ],
+      "type": "synergy",
+      "value": 27
+    },
+    {
+      "projects": [
+        "P28",
+        "P30"
+      ],
+      "type": "synergy",
+      "value": 30
+    },
+    {
+      "projects": [
+        "P82",
+        "P113"
+      ],
+      "type": "synergy",
+      "value": 28
+    },
+    {
+      "projects": [
+        "P46",
+        "P65"
+      ],
+      "type": "synergy",
+      "value": 27
+    },
+    {
+      "projects": [
+        "P50",
+        "P55"
       ],
       "type": "synergy",
       "value": 9
     },
     {
       "projects": [
-        "P24",
-        "P25"
+        "P136",
+        "P143"
       ],
       "type": "synergy",
-      "value": 10
+      "value": 29
+    },
+    {
+      "projects": [
+        "P51",
+        "P120"
+      ],
+      "type": "conflict",
+      "value": 17
     }
   ],
   "budget": {
-    "cost": 2200,
-    "engineering": 125,
-    "staffing": 120,
-    "energy": 105,
-    "risk": 90
+    "cost": 9177,
+    "engineering": 737,
+    "staffing": 792,
+    "energy": 647,
+    "risk": 510
   }
 }

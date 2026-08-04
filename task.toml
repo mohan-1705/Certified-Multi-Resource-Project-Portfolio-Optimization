@@ -1,0 +1,46 @@
+name = "Certified Multi-Resource Project Portfolio Optimization"
+category = "Mathematics and Formal Reasoning"
+subcategory = "Algorithms and Optimization Theory"
+
+[[files]]
+path = "solve.sh"
+required = true
+language = "bash"
+
+[[files]]
+path = "Dockerfile"
+required = true
+language = "dockerfile"
+
+[[files]]
+path = "instruction.md"
+required = true
+language = "markdown"
+
+[[files]]
+path = "task.toml"
+required = true
+language = "toml"
+
+[[files]]
+path = "solver.py"
+required = true
+language = "python"
+
+[[files]]
+path = "verify.py"
+required = true
+language = "python"
+
+[[files]]
+path = "data/instance.json"
+required = true
+language = "json"
+
+[[files]]
+path = "tests/test_verify.py"
+required = true
+language = "python"
+
+[run]
+entrypoint = "bash solve.sh"

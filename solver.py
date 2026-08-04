@@ -149,11 +149,11 @@ def build_milp_model(instance):
         upper.append(0.0)
 
         row = np.zeros(n + m, dtype=float)
-        row[yi] = -1.0
-        row[ai] = 1.0
-        row[bi] = 1.0
+        row[yi] = 1.0
+        row[ai] = -1.0
+        row[bi] = -1.0
         rows.append(row)
-        lower.append(0.0)
+        lower.append(-1.0)
         upper.append(np.inf)
 
     A = np.vstack(rows)
@@ -251,19 +251,6 @@ def build_branch_certificate(instance, best_objective, best_selection):
             return
 
         upper_bound = -lp_res.fun
-        if upper_bound <= best_objective + 1e-8:
-            node = {
-                "node_id": node_id,
-                "parent_id": parent_id,
-                "fixed_assignments": fixed_assignments,
-                "branch_variable": None,
-                "status": "pruned",
-                "upper_bound": upper_bound,
-                "proof": {"type": "lp_relaxation", "value": upper_bound},
-            }
-            nodes.append(node)
-            return
-
         n = len(project_ids)
         if is_integer_solution(lp_res.x, n):
             selected_projects = [project_ids[i] for i in range(n) if round(lp_res.x[i]) == 1]
@@ -276,6 +263,19 @@ def build_branch_certificate(instance, best_objective, best_selection):
                 "status": "optimal" if abs(objective - best_objective) <= 1e-8 else "pruned",
                 "upper_bound": upper_bound,
                 "proof": {"type": "integer_solution", "value": objective},
+            }
+            nodes.append(node)
+            return
+
+        if upper_bound <= best_objective + 1e-8:
+            node = {
+                "node_id": node_id,
+                "parent_id": parent_id,
+                "fixed_assignments": fixed_assignments,
+                "branch_variable": None,
+                "status": "pruned",
+                "upper_bound": upper_bound,
+                "proof": {"type": "lp_relaxation", "value": upper_bound},
             }
             nodes.append(node)
             return
@@ -319,7 +319,7 @@ def solve_exact(instance, time_limit=180.0):
 
     selected_projects = [project_ids[i] for i, x in enumerate(mip_res.x[: len(project_ids)]) if round(x) == 1]
     closure, resources, objective = evaluate_selection(selected_projects, projects, {proj_id: proj["deps"] for proj_id, proj in projects.items()}, interactions)
-    if objective != -mip_res.fun:
+    if abs(objective + mip_res.fun) > 1e-6:
         raise RuntimeError("Computed objective does not match MILP result")
 
     certificate = build_branch_certificate(instance, objective, selected_projects)
